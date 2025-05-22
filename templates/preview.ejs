@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <title>Preview Icon Font</title>
+  <link rel="stylesheet" href="<%= cssPath %>" />
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen p-8 font-sans text-gray-900">
+  <h1 class="text-3xl font-bold mb-8 text-center">Open Scouts Icon Font Preview</h1>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-8 gap-6">
+    <% glyphs.forEach(glyph => { %>
+      <div
+        class="flex flex-col items-center bg-white rounded-lg shadow p-4 hover:shadow-lg transition-shadow duration-300 cursor-pointer select-none"
+        data-icon-name="<%= glyph.className %>"
+        onclick="copyToClipboard(this)"
+        title="Click para copiar <%= glyph.className %>"
+      >
+        <span class="scout <%= glyph.className %> text-5xl text-indigo-600"></span>
+        <div class="mt-3 text-sm font-mono text-gray-700 text-center break-words">
+          <%= glyph.className %>
+        </div>
+      </div>
+    <% }) %>
+  </div>
+
+  <!-- Toast notificación -->
+  <div
+    id="toast"
+    class="fixed bottom-6 left-1/2 transform -translate-x-1/2 bg-indigo-600 text-white px-4 py-2 rounded shadow opacity-0 pointer-events-none transition-opacity duration-300"
+  >
+    Copiado
+  </div>
+  <footer class="mt-12 text-center text-gray-500 text-xs">
+    Fuentes de Iconos Creada y Mantenida por Andres Lacquaniti
+  </footer>
+
+  <script>
+    function copyToClipboard(el) {
+      const iconName = el.getAttribute('data-icon-name');
+      navigator.clipboard.writeText(iconName).then(() => {
+        showToast(`Copiado: ${iconName}`);
+      }).catch(() => {
+        alert('Error copiando al portapapeles');
+      });
+    }
+
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 1500);
+    }
+  </script>
+
+
+</body>
+</html>

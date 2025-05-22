@@ -1,0 +1,26 @@
+{
+  "name": "@openscouts/scout-icon-webfont",
+  "version": "1.0.0",
+  "description": "Scouts Icons Webfont, utilizado en Mi Rincon Scout.",
+  "type": "module",
+  "main": "scripts/build-icons.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-scouts/scout-icon-webfont.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "node scripts/build-icons.js"
+  },
+  "keywords": ["iconos","icon","webfont","scout","Mi Rincon", "Andres Lacquaniti"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.3.0",
+    "globby": "^14.1.0",
+    "webfont": "^11.2.26"
+  }
+}
