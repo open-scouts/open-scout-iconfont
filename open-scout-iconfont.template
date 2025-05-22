@@ -1,0 +1,439 @@
+@font-face {
+  font-display: auto;
+  font-family: "open-scout-iconfont";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./open-scout-iconfont.eot?1747873590990");
+  src: url("./open-scout-iconfont.eot?#iefix") format("embedded-opentype"), url("./open-scout-iconfont.woff2?1747873590990") format("woff2"), url("./open-scout-iconfont.woff?1747873590990") format("woff"), url("./open-scout-iconfont.ttf?1747873590990") format("truetype"), url("./open-scout-iconfont.svg?1747873590990#open-scout-iconfont") format("svg");
+}
+
+.scout {
+  display: inline-block;
+  font-family: "open-scout-iconfont";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.scout-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.scout-xs {
+  font-size: 0.75em;
+}
+
+.scout-sm {
+  font-size: 0.875em;
+}
+
+.scout-1x {
+  font-size: 1em;
+}
+
+.scout-2x {
+  font-size: 2em;
+}
+
+.scout-3x {
+  font-size: 3em;
+}
+
+.scout-4x {
+  font-size: 4em;
+}
+
+.scout-5x {
+  font-size: 5em;
+}
+
+.scout-6x {
+  font-size: 6em;
+}
+
+.scout-7x {
+  font-size: 7em;
+}
+
+.scout-8x {
+  font-size: 8em;
+}
+
+.scout-9x {
+  font-size: 9em;
+}
+
+.scout-10x {
+  font-size: 10em;
+}
+
+.scout-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.scout-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.scout-pull-left {
+  float: left;
+}
+
+.scout-pull-right {
+  float: right;
+}
+
+.scout.scout-pull-left {
+  margin-right: 0.3em;
+}
+
+.scout.scout-pull-right {
+  margin-left: 0.3em;
+}
+
+
+.scout-accion-educador::before {
+  content: "\ea01";
+}
+
+.scout-accion-educador-add::before {
+  content: "\ea02";
+}
+
+.scout-accion-educador-del::before {
+  content: "\ea03";
+}
+
+.scout-accion-educador-list::before {
+  content: "\ea04";
+}
+
+.scout-accion-evento::before {
+  content: "\ea05";
+}
+
+.scout-accion-evento-add::before {
+  content: "\ea06";
+}
+
+.scout-accion-evento-del::before {
+  content: "\ea07";
+}
+
+.scout-accion-evento-list::before {
+  content: "\ea08";
+}
+
+.scout-accion-formador::before {
+  content: "\ea09";
+}
+
+.scout-accion-formador-add::before {
+  content: "\ea0a";
+}
+
+.scout-accion-formador-del::before {
+  content: "\ea0b";
+}
+
+.scout-accion-formador-list::before {
+  content: "\ea0c";
+}
+
+.scout-accion-gestion::before {
+  content: "\ea0d";
+}
+
+.scout-accion-habilitacion::before {
+  content: "\ea0e";
+}
+
+.scout-accion-habilitacion-add::before {
+  content: "\ea0f";
+}
+
+.scout-accion-habilitacion-del::before {
+  content: "\ea10";
+}
+
+.scout-accion-habilitacion-list::before {
+  content: "\ea11";
+}
+
+.scout-accion-im::before {
+  content: "\ea12";
+}
+
+.scout-accion-im-add::before {
+  content: "\ea13";
+}
+
+.scout-accion-im-del::before {
+  content: "\ea14";
+}
+
+.scout-accion-im-list::before {
+  content: "\ea15";
+}
+
+.scout-accion-im-update::before {
+  content: "\ea16";
+}
+
+.scout-accion-lugar::before {
+  content: "\ea17";
+}
+
+.scout-accion-lugar-add::before {
+  content: "\ea18";
+}
+
+.scout-accion-lugar-del::before {
+  content: "\ea19";
+}
+
+.scout-accion-lugar-list::before {
+  content: "\ea1a";
+}
+
+.scout-accion-scout-avatar::before {
+  content: "\ea1b";
+}
+
+.scout-accion-scout-buscar::before {
+  content: "\ea1c";
+}
+
+.scout-accion-scout-perfil::before {
+  content: "\ea1d";
+}
+
+.scout-accion-trabajo::before {
+  content: "\ea1e";
+}
+
+.scout-accion-trabajo-add::before {
+  content: "\ea1f";
+}
+
+.scout-accion-trabajo-del::before {
+  content: "\ea20";
+}
+
+.scout-accion-trabajo-list::before {
+  content: "\ea21";
+}
+
+.scout-area-ams::before {
+  content: "\ea22";
+}
+
+.scout-area-ayf::before {
+  content: "\ea23";
+}
+
+.scout-area-budista::before {
+  content: "\ea24";
+}
+
+.scout-area-catolico::before {
+  content: "\ea25";
+}
+
+.scout-area-comunicaciones::before {
+  content: "\ea26";
+}
+
+.scout-area-desarrollo::before {
+  content: "\ea27";
+}
+
+.scout-area-eys::before {
+  content: "\ea28";
+}
+
+.scout-area-infraestructura::before {
+  content: "\ea29";
+}
+
+.scout-area-juventud::before {
+  content: "\ea2a";
+}
+
+.scout-area-musulmanes::before {
+  content: "\ea2b";
+}
+
+.scout-area-programa::before {
+  content: "\ea2c";
+}
+
+.scout-camping-banderin::before {
+  content: "\ea2d";
+}
+
+.scout-camping-botiquin::before {
+  content: "\ea2e";
+}
+
+.scout-camping-brujula::before {
+  content: "\ea2f";
+}
+
+.scout-camping-cantimplora::before {
+  content: "\ea30";
+}
+
+.scout-camping-carpa::before {
+  content: "\ea31";
+}
+
+.scout-camping-chuchillo::before {
+  content: "\ea32";
+}
+
+.scout-camping-fuego::before {
+  content: "\ea33";
+}
+
+.scout-camping-mochila::before {
+  content: "\ea34";
+}
+
+.scout-camping-montania::before {
+  content: "\ea35";
+}
+
+.scout-camping-pinos::before {
+  content: "\ea36";
+}
+
+.scout-camping-prismatico::before {
+  content: "\ea37";
+}
+
+.scout-camping-silbato::before {
+  content: "\ea38";
+}
+
+.scout-camping-trompeta::before {
+  content: "\ea39";
+}
+
+.scout-lobo::before {
+  content: "\ea3a";
+}
+
+.scout-ltv-bagheera::before {
+  content: "\ea3b";
+}
+
+.scout-ltv-baloo::before {
+  content: "\ea3c";
+}
+
+.scout-ltv-kaa::before {
+  content: "\ea3d";
+}
+
+.scout-ltv-mowgli::before {
+  content: "\ea3e";
+}
+
+.scout-ltv-raksha::before {
+  content: "\ea3f";
+}
+
+.scout-funcion-dd::before {
+  content: "\ea40";
+}
+
+.scout-funcion-dirigente::before {
+  content: "\ea41";
+}
+
+.scout-funcion-dz::before {
+  content: "\ea42";
+}
+
+.scout-funcion-jg::before {
+  content: "\ea43";
+}
+
+.scout-saac-insignia-caminantes::before {
+  content: "\ea44";
+}
+
+.scout-saac-insignia-lyl::before {
+  content: "\ea45";
+}
+
+.scout-saac-insignia-rover::before {
+  content: "\ea46";
+}
+
+.scout-saac-insignia-scout::before {
+  content: "\ea47";
+}
+
+.scout-saac-isologo::before {
+  content: "\ea48";
+}
+
+.scout-saac-lis::before {
+  content: "\ea49";
+}
+
+.scout-saac-lis-nacional::before {
+  content: "\ea4a";
+}
+
+.scout-saac-oms::before {
+  content: "\ea4b";
+}
+
+.scout-saac-zona9::before {
+  content: "\ea4c";
+}
+
+.scout-camping-llano::before {
+  content: "\ea4d";
+}
+
+.scout-canoa::before {
+  content: "\ea4e";
+}
+
+.scout-cayado::before {
+  content: "\ea4f";
+}
+
+.scout-objetos-panuelo::before {
+  content: "\ea50";
+}
+
+.scout-scout-bp::before {
+  content: "\ea51";
+}
+
+.scout-scout-caminando::before {
+  content: "\ea52";
+}
+
+.scout-scout-saludo::before {
+  content: "\ea53";
+}
+
+.scout-scout-saludo-mano::before {
+  content: "\ea54";
+}
+
