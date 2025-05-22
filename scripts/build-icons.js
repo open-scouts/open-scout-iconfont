@@ -55,7 +55,8 @@ const CLASS_PREFIX = "";
 
     // Preparar datos para HTML
     const glyphs = result.glyphsData.map((glyph) => ({
-      className: `${CLASS_PREFIX}-${glyph.metadata.name}`,
+      //className: `${CLASS_PREFIX}-${glyph.metadata.name}`,
+      className: `${glyph.metadata.name}`,
       name: glyph.metadata.name,
     }));
 
