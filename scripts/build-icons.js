@@ -14,8 +14,8 @@ const SVG_DIR = path.resolve(__dirname, "../svg");
 const DIST_DIR = path.resolve(__dirname, "../dist");
 const PREVIEW_TEMPLATE = path.resolve(__dirname, "../templates/preview.ejs");
 
-const FONT_NAME = "open-scout-iconfont";
-const CLASS_PREFIX = "scout";
+const FONT_NAME = "scout-icon-webfont";
+const CLASS_PREFIX = "";
 
 (async () => {
   try {
