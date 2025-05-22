@@ -3,8 +3,8 @@
   font-family: "open-scout-iconfont";
   font-style: normal;
   font-weight: 400;
-  src: url("./open-scout-iconfont.eot?1747953550375");
-  src: url("./open-scout-iconfont.eot?#iefix") format("embedded-opentype"), url("./open-scout-iconfont.woff2?1747953550375") format("woff2"), url("./open-scout-iconfont.woff?1747953550375") format("woff"), url("./open-scout-iconfont.ttf?1747953550375") format("truetype"), url("./open-scout-iconfont.svg?1747953550375#open-scout-iconfont") format("svg");
+  src: url("./open-scout-iconfont.eot?1747954563503");
+  src: url("./open-scout-iconfont.eot?#iefix") format("embedded-opentype"), url("./open-scout-iconfont.woff2?1747954563503") format("woff2"), url("./open-scout-iconfont.woff?1747954563503") format("woff"), url("./open-scout-iconfont.ttf?1747954563503") format("truetype"), url("./open-scout-iconfont.svg?1747954563503#open-scout-iconfont") format("svg");
 }
 
 .scout {
