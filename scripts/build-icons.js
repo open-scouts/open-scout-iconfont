@@ -31,15 +31,11 @@ const result = await webfont({
   fontHeight: 1000,
   template: CUSTOM_CSS_TEMPLATE,
   templateFontPath: "./",
-  glyphTransformFn: (obj) => {
-    // Igual que antes, para nombre carpeta-nombrearchivo
-    const relativePath = path.relative(SVG_DIR, obj.path);
-    const parsed = path.parse(relativePath);
-    const folder = parsed.dir.replace(/[\/\\]/g, "-");
-    const filename = parsed.name.replace(/\s+/g, "-");
-    obj.name = `${folder}-${filename}`;
-    return obj;
-  },
+      glyphTransformFn: (obj) => {
+        const name = path.basename(obj.path, ".svg").replace(/\s+/g, "-");
+        obj.name = name;
+        return obj;
+      },
 });
 
     // Guardar fuentes
