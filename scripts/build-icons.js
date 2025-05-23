@@ -1,4 +1,4 @@
-import {webfont} from "webfont";
+import { webfont } from "webfont";
 import fs from "fs-extra";
 import { globby } from "globby";
 import path from "path";
@@ -15,7 +15,7 @@ const DIST_DIR = path.resolve(__dirname, "../dist");
 const PREVIEW_TEMPLATE = path.resolve(__dirname, "../templates/preview.ejs");
 
 const FONT_NAME = "scout-icon-webfont";
-const CLASS_PREFIX = "";
+const CUSTOM_CSS_TEMPLATE = path.resolve(__dirname, "../templates/custom-css.hbs");
 
 (async () => {
   try {
@@ -23,22 +23,24 @@ const CLASS_PREFIX = "";
 
     const files = await globby("**/*.svg", { cwd: SVG_DIR, absolute: true });
 
-    const result = await webfont({
-      files,
-      fontName: FONT_NAME,
-      formats: ["woff2", "woff", "ttf", "eot", "svg"],
-      normalize: true,
-      fontHeight: 1000,
-      descent: 200,
-      template: "css",
-      templateClassName: CLASS_PREFIX,
-      templateFontPath: "./", // fuentes en la misma carpeta que el css
-      glyphTransformFn: (obj) => {
-        const name = path.basename(obj.path, ".svg").replace(/\s+/g, "-");
-        obj.name = name;
-        return obj;
-      },
-    });
+const result = await webfont({
+  className: 'scout',
+  files,
+  fontName: FONT_NAME,
+  normalize: true,
+  fontHeight: 1000,
+  template: CUSTOM_CSS_TEMPLATE,
+  templateFontPath: "./",
+  glyphTransformFn: (obj) => {
+    // Igual que antes, para nombre carpeta-nombrearchivo
+    const relativePath = path.relative(SVG_DIR, obj.path);
+    const parsed = path.parse(relativePath);
+    const folder = parsed.dir.replace(/[\/\\]/g, "-");
+    const filename = parsed.name.replace(/\s+/g, "-");
+    obj.name = `${folder}-${filename}`;
+    return obj;
+  },
+});
 
     // Guardar fuentes
     await Promise.all(
@@ -55,8 +57,7 @@ const CLASS_PREFIX = "";
 
     // Preparar datos para HTML
     const glyphs = result.glyphsData.map((glyph) => ({
-      //className: `${CLASS_PREFIX}-${glyph.metadata.name}`,
-      className: `${glyph.metadata.name}`,
+      className: glyph.metadata.name,
       name: glyph.metadata.name,
     }));
 

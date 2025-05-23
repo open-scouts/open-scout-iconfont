@@ -1,6 +1,6 @@
 {
   "name": "@openscouts/scout-icon-webfont",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scouts Icons Webfont, utilizado en Mi Rincon Scout.",
   "type": "module",
   "main": "scripts/build-icons.js",
