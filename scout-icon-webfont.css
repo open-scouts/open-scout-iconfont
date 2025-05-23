@@ -3,11 +3,11 @@
   font-family: "scout-icon-webfont";
   font-style: normal;
   font-weight: 400;
-  src: url("./scout-icon-webfont.eot?1747957113172");
-  src: url("./scout-icon-webfont.eot?#iefix") format("embedded-opentype"), url("./scout-icon-webfont.woff2?1747957113172") format("woff2"), url("./scout-icon-webfont.woff?1747957113172") format("woff"), url("./scout-icon-webfont.ttf?1747957113172") format("truetype"), url("./scout-icon-webfont.svg?1747957113172#scout-icon-webfont") format("svg");
+  src: url("./scout-icon-webfont.eot?1747958487725");
+  src: url("./scout-icon-webfont.eot?#iefix") format("embedded-opentype"), url("./scout-icon-webfont.woff2?1747958487725") format("woff2"), url("./scout-icon-webfont.woff?1747958487725") format("woff"), url("./scout-icon-webfont.ttf?1747958487725") format("truetype"), url("./scout-icon-webfont.svg?1747958487725#scout-icon-webfont") format("svg");
 }
 
-.scout-icon-webfont {
+.scout {
   display: inline-block;
   font-family: "scout-icon-webfont";
   font-weight: 400;
@@ -19,421 +19,421 @@
   -webkit-font-smoothing: antialiased;
 }
 
-.scout-icon-webfont-lg {
+.scout-lg {
   font-size: 1.33333em;
   line-height: 0.75em;
   vertical-align: -0.0667em;
 }
 
-.scout-icon-webfont-xs {
+.scout-xs {
   font-size: 0.75em;
 }
 
-.scout-icon-webfont-sm {
+.scout-sm {
   font-size: 0.875em;
 }
 
-.scout-icon-webfont-1x {
+.scout-1x {
   font-size: 1em;
 }
 
-.scout-icon-webfont-2x {
+.scout-2x {
   font-size: 2em;
 }
 
-.scout-icon-webfont-3x {
+.scout-3x {
   font-size: 3em;
 }
 
-.scout-icon-webfont-4x {
+.scout-4x {
   font-size: 4em;
 }
 
-.scout-icon-webfont-5x {
+.scout-5x {
   font-size: 5em;
 }
 
-.scout-icon-webfont-6x {
+.scout-6x {
   font-size: 6em;
 }
 
-.scout-icon-webfont-7x {
+.scout-7x {
   font-size: 7em;
 }
 
-.scout-icon-webfont-8x {
+.scout-8x {
   font-size: 8em;
 }
 
-.scout-icon-webfont-9x {
+.scout-9x {
   font-size: 9em;
 }
 
-.scout-icon-webfont-10x {
+.scout-10x {
   font-size: 10em;
 }
 
-.scout-icon-webfont-fw {
+.scout-fw {
   text-align: center;
   width: 1.25em;
 }
 
-.scout-icon-webfont-border {
+.scout-border {
   border: solid 0.08em #eee;
   border-radius: 0.1em;
   padding: 0.2em 0.25em 0.15em;
 }
 
-.scout-icon-webfont-pull-left {
+.scout-pull-left {
   float: left;
 }
 
-.scout-icon-webfont-pull-right {
+.scout-pull-right {
   float: right;
 }
 
-.scout-icon-webfont.scout-icon-webfont-pull-left {
+.scout.scout-pull-left {
   margin-right: 0.3em;
 }
 
-.scout-icon-webfont.scout-icon-webfont-pull-right {
+.scout.scout-pull-right {
   margin-left: 0.3em;
 }
 
 
-.scout-icon-webfont-accion-educador::before {
+.acciones-accion-educador::before {
   content: "\ea01";
 }
 
-.scout-icon-webfont-accion-educador-add::before {
+.acciones-accion-educador-add::before {
   content: "\ea02";
 }
 
-.scout-icon-webfont-accion-educador-del::before {
+.acciones-accion-educador-del::before {
   content: "\ea03";
 }
 
-.scout-icon-webfont-accion-educador-list::before {
+.acciones-accion-educador-list::before {
   content: "\ea04";
 }
 
-.scout-icon-webfont-accion-evento::before {
+.acciones-accion-evento::before {
   content: "\ea05";
 }
 
-.scout-icon-webfont-accion-evento-add::before {
+.acciones-accion-evento-add::before {
   content: "\ea06";
 }
 
-.scout-icon-webfont-accion-evento-del::before {
+.acciones-accion-evento-del::before {
   content: "\ea07";
 }
 
-.scout-icon-webfont-accion-evento-list::before {
+.acciones-accion-evento-list::before {
   content: "\ea08";
 }
 
-.scout-icon-webfont-accion-formador::before {
+.acciones-accion-formador::before {
   content: "\ea09";
 }
 
-.scout-icon-webfont-accion-formador-add::before {
+.acciones-accion-formador-add::before {
   content: "\ea0a";
 }
 
-.scout-icon-webfont-accion-formador-del::before {
+.acciones-accion-formador-del::before {
   content: "\ea0b";
 }
 
-.scout-icon-webfont-accion-formador-list::before {
+.acciones-accion-formador-list::before {
   content: "\ea0c";
 }
 
-.scout-icon-webfont-accion-gestion::before {
+.acciones-accion-gestion::before {
   content: "\ea0d";
 }
 
-.scout-icon-webfont-accion-habilitacion::before {
+.acciones-accion-habilitacion::before {
   content: "\ea0e";
 }
 
-.scout-icon-webfont-accion-habilitacion-add::before {
+.acciones-accion-habilitacion-add::before {
   content: "\ea0f";
 }
 
-.scout-icon-webfont-accion-habilitacion-del::before {
+.acciones-accion-habilitacion-del::before {
   content: "\ea10";
 }
 
-.scout-icon-webfont-accion-habilitacion-list::before {
+.acciones-accion-habilitacion-list::before {
   content: "\ea11";
 }
 
-.scout-icon-webfont-accion-im::before {
+.acciones-accion-im::before {
   content: "\ea12";
 }
 
-.scout-icon-webfont-accion-im-add::before {
+.acciones-accion-im-add::before {
   content: "\ea13";
 }
 
-.scout-icon-webfont-accion-im-del::before {
+.acciones-accion-im-del::before {
   content: "\ea14";
 }
 
-.scout-icon-webfont-accion-im-list::before {
+.acciones-accion-im-list::before {
   content: "\ea15";
 }
 
-.scout-icon-webfont-accion-im-update::before {
+.acciones-accion-im-update::before {
   content: "\ea16";
 }
 
-.scout-icon-webfont-accion-lugar::before {
+.acciones-accion-lugar::before {
   content: "\ea17";
 }
 
-.scout-icon-webfont-accion-lugar-add::before {
+.acciones-accion-lugar-add::before {
   content: "\ea18";
 }
 
-.scout-icon-webfont-accion-lugar-del::before {
+.acciones-accion-lugar-del::before {
   content: "\ea19";
 }
 
-.scout-icon-webfont-accion-lugar-list::before {
+.acciones-accion-lugar-list::before {
   content: "\ea1a";
 }
 
-.scout-icon-webfont-accion-scout-avatar::before {
+.acciones-accion-scout-avatar::before {
   content: "\ea1b";
 }
 
-.scout-icon-webfont-accion-scout-buscar::before {
+.acciones-accion-scout-buscar::before {
   content: "\ea1c";
 }
 
-.scout-icon-webfont-accion-scout-perfil::before {
+.acciones-accion-scout-perfil::before {
   content: "\ea1d";
 }
 
-.scout-icon-webfont-accion-trabajo::before {
+.acciones-accion-trabajo::before {
   content: "\ea1e";
 }
 
-.scout-icon-webfont-accion-trabajo-add::before {
+.acciones-accion-trabajo-add::before {
   content: "\ea1f";
 }
 
-.scout-icon-webfont-accion-trabajo-del::before {
+.acciones-accion-trabajo-del::before {
   content: "\ea20";
 }
 
-.scout-icon-webfont-accion-trabajo-list::before {
+.acciones-accion-trabajo-list::before {
   content: "\ea21";
 }
 
-.scout-icon-webfont-area-ams::before {
+.area-area-ams::before {
   content: "\ea22";
 }
 
-.scout-icon-webfont-area-ayf::before {
+.area-area-ayf::before {
   content: "\ea23";
 }
 
-.scout-icon-webfont-area-budista::before {
+.area-area-budista::before {
   content: "\ea24";
 }
 
-.scout-icon-webfont-area-catolico::before {
+.area-area-catolico::before {
   content: "\ea25";
 }
 
-.scout-icon-webfont-area-comunicaciones::before {
+.area-area-comunicaciones::before {
   content: "\ea26";
 }
 
-.scout-icon-webfont-area-desarrollo::before {
+.area-area-desarrollo::before {
   content: "\ea27";
 }
 
-.scout-icon-webfont-area-eys::before {
+.area-area-eys::before {
   content: "\ea28";
 }
 
-.scout-icon-webfont-area-infraestructura::before {
+.area-area-infraestructura::before {
   content: "\ea29";
 }
 
-.scout-icon-webfont-area-juventud::before {
+.area-area-juventud::before {
   content: "\ea2a";
 }
 
-.scout-icon-webfont-area-musulmanes::before {
+.area-area-musulmanes::before {
   content: "\ea2b";
 }
 
-.scout-icon-webfont-area-programa::before {
+.area-area-programa::before {
   content: "\ea2c";
 }
 
-.scout-icon-webfont-camping-banderin::before {
+.camping-camping-banderin::before {
   content: "\ea2d";
 }
 
-.scout-icon-webfont-camping-botiquin::before {
+.camping-camping-botiquin::before {
   content: "\ea2e";
 }
 
-.scout-icon-webfont-camping-brujula::before {
+.camping-camping-brujula::before {
   content: "\ea2f";
 }
 
-.scout-icon-webfont-camping-cantimplora::before {
+.camping-camping-cantimplora::before {
   content: "\ea30";
 }
 
-.scout-icon-webfont-camping-carpa::before {
+.camping-camping-carpa::before {
   content: "\ea31";
 }
 
-.scout-icon-webfont-camping-chuchillo::before {
+.camping-camping-chuchillo::before {
   content: "\ea32";
 }
 
-.scout-icon-webfont-camping-fuego::before {
+.camping-camping-fuego::before {
   content: "\ea33";
 }
 
-.scout-icon-webfont-camping-mochila::before {
+.camping-camping-mochila::before {
   content: "\ea34";
 }
 
-.scout-icon-webfont-camping-montania::before {
+.camping-camping-montania::before {
   content: "\ea35";
 }
 
-.scout-icon-webfont-camping-pinos::before {
+.camping-camping-pinos::before {
   content: "\ea36";
 }
 
-.scout-icon-webfont-camping-prismatico::before {
+.camping-camping-prismatico::before {
   content: "\ea37";
 }
 
-.scout-icon-webfont-camping-silbato::before {
+.camping-camping-silbato::before {
   content: "\ea38";
 }
 
-.scout-icon-webfont-camping-trompeta::before {
+.camping-camping-trompeta::before {
   content: "\ea39";
 }
 
-.scout-icon-webfont-lobo::before {
+.ltv-lobo::before {
   content: "\ea3a";
 }
 
-.scout-icon-webfont-ltv-bagheera::before {
+.ltv-ltv-bagheera::before {
   content: "\ea3b";
 }
 
-.scout-icon-webfont-ltv-baloo::before {
+.ltv-ltv-baloo::before {
   content: "\ea3c";
 }
 
-.scout-icon-webfont-ltv-kaa::before {
+.ltv-ltv-kaa::before {
   content: "\ea3d";
 }
 
-.scout-icon-webfont-ltv-mowgli::before {
+.ltv-ltv-mowgli::before {
   content: "\ea3e";
 }
 
-.scout-icon-webfont-ltv-raksha::before {
+.ltv-ltv-raksha::before {
   content: "\ea3f";
 }
 
-.scout-icon-webfont-funcion-dd::before {
+.saac-funciones-funcion-dd::before {
   content: "\ea40";
 }
 
-.scout-icon-webfont-funcion-dirigente::before {
+.saac-funciones-funcion-dirigente::before {
   content: "\ea41";
 }
 
-.scout-icon-webfont-funcion-dz::before {
+.saac-funciones-funcion-dz::before {
   content: "\ea42";
 }
 
-.scout-icon-webfont-funcion-jg::before {
+.saac-funciones-funcion-jg::before {
   content: "\ea43";
 }
 
-.scout-icon-webfont-saac-insignia-caminantes::before {
+.saac-saac-insignia-caminantes::before {
   content: "\ea44";
 }
 
-.scout-icon-webfont-saac-insignia-lyl::before {
+.saac-saac-insignia-lyl::before {
   content: "\ea45";
 }
 
-.scout-icon-webfont-saac-insignia-rover::before {
+.saac-saac-insignia-rover::before {
   content: "\ea46";
 }
 
-.scout-icon-webfont-saac-insignia-scout::before {
+.saac-saac-insignia-scout::before {
   content: "\ea47";
 }
 
-.scout-icon-webfont-saac-isologo::before {
+.saac-saac-isologo::before {
   content: "\ea48";
 }
 
-.scout-icon-webfont-saac-lis::before {
+.saac-saac-lis::before {
   content: "\ea49";
 }
 
-.scout-icon-webfont-saac-lis-nacional::before {
+.saac-saac-lis-nacional::before {
   content: "\ea4a";
 }
 
-.scout-icon-webfont-saac-oms::before {
+.saac-saac-oms::before {
   content: "\ea4b";
 }
 
-.scout-icon-webfont-saac-zona9::before {
+.saac-saac-zona9::before {
   content: "\ea4c";
 }
 
-.scout-icon-webfont-camping-llano::before {
+.varios-camping-llano::before {
   content: "\ea4d";
 }
 
-.scout-icon-webfont-canoa::before {
+.varios-canoa::before {
   content: "\ea4e";
 }
 
-.scout-icon-webfont-cayado::before {
+.varios-cayado::before {
   content: "\ea4f";
 }
 
-.scout-icon-webfont-objetos-panuelo::before {
+.varios-objetos-panuelo::before {
   content: "\ea50";
 }
 
-.scout-icon-webfont-scout-bp::before {
+.varios-scout-bp::before {
   content: "\ea51";
 }
 
-.scout-icon-webfont-scout-caminando::before {
+.varios-scout-caminando::before {
   content: "\ea52";
 }
 
-.scout-icon-webfont-scout-saludo::before {
+.varios-scout-saludo::before {
   content: "\ea53";
 }
 
-.scout-icon-webfont-scout-saludo-mano::before {
+.varios-scout-saludo-mano::before {
   content: "\ea54";
 }
 
