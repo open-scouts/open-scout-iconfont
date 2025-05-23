@@ -3,8 +3,8 @@
   font-family: "scout-icon-webfont";
   font-style: normal;
   font-weight: 400;
-  src: url("./scout-icon-webfont.eot?1747958487725");
-  src: url("./scout-icon-webfont.eot?#iefix") format("embedded-opentype"), url("./scout-icon-webfont.woff2?1747958487725") format("woff2"), url("./scout-icon-webfont.woff?1747958487725") format("woff"), url("./scout-icon-webfont.ttf?1747958487725") format("truetype"), url("./scout-icon-webfont.svg?1747958487725#scout-icon-webfont") format("svg");
+  src: url("./scout-icon-webfont.eot?1747959046385");
+  src: url("./scout-icon-webfont.eot?#iefix") format("embedded-opentype"), url("./scout-icon-webfont.woff2?1747959046385") format("woff2"), url("./scout-icon-webfont.woff?1747959046385") format("woff"), url("./scout-icon-webfont.ttf?1747959046385") format("truetype"), url("./scout-icon-webfont.svg?1747959046385#scout-icon-webfont") format("svg");
 }
 
 .scout {
@@ -101,339 +101,339 @@
 }
 
 
-.acciones-accion-educador::before {
+.accion-educador::before {
   content: "\ea01";
 }
 
-.acciones-accion-educador-add::before {
+.accion-educador-add::before {
   content: "\ea02";
 }
 
-.acciones-accion-educador-del::before {
+.accion-educador-del::before {
   content: "\ea03";
 }
 
-.acciones-accion-educador-list::before {
+.accion-educador-list::before {
   content: "\ea04";
 }
 
-.acciones-accion-evento::before {
+.accion-evento::before {
   content: "\ea05";
 }
 
-.acciones-accion-evento-add::before {
+.accion-evento-add::before {
   content: "\ea06";
 }
 
-.acciones-accion-evento-del::before {
+.accion-evento-del::before {
   content: "\ea07";
 }
 
-.acciones-accion-evento-list::before {
+.accion-evento-list::before {
   content: "\ea08";
 }
 
-.acciones-accion-formador::before {
+.accion-formador::before {
   content: "\ea09";
 }
 
-.acciones-accion-formador-add::before {
+.accion-formador-add::before {
   content: "\ea0a";
 }
 
-.acciones-accion-formador-del::before {
+.accion-formador-del::before {
   content: "\ea0b";
 }
 
-.acciones-accion-formador-list::before {
+.accion-formador-list::before {
   content: "\ea0c";
 }
 
-.acciones-accion-gestion::before {
+.accion-gestion::before {
   content: "\ea0d";
 }
 
-.acciones-accion-habilitacion::before {
+.accion-habilitacion::before {
   content: "\ea0e";
 }
 
-.acciones-accion-habilitacion-add::before {
+.accion-habilitacion-add::before {
   content: "\ea0f";
 }
 
-.acciones-accion-habilitacion-del::before {
+.accion-habilitacion-del::before {
   content: "\ea10";
 }
 
-.acciones-accion-habilitacion-list::before {
+.accion-habilitacion-list::before {
   content: "\ea11";
 }
 
-.acciones-accion-im::before {
+.accion-im::before {
   content: "\ea12";
 }
 
-.acciones-accion-im-add::before {
+.accion-im-add::before {
   content: "\ea13";
 }
 
-.acciones-accion-im-del::before {
+.accion-im-del::before {
   content: "\ea14";
 }
 
-.acciones-accion-im-list::before {
+.accion-im-list::before {
   content: "\ea15";
 }
 
-.acciones-accion-im-update::before {
+.accion-im-update::before {
   content: "\ea16";
 }
 
-.acciones-accion-lugar::before {
+.accion-lugar::before {
   content: "\ea17";
 }
 
-.acciones-accion-lugar-add::before {
+.accion-lugar-add::before {
   content: "\ea18";
 }
 
-.acciones-accion-lugar-del::before {
+.accion-lugar-del::before {
   content: "\ea19";
 }
 
-.acciones-accion-lugar-list::before {
+.accion-lugar-list::before {
   content: "\ea1a";
 }
 
-.acciones-accion-scout-avatar::before {
+.accion-scout-avatar::before {
   content: "\ea1b";
 }
 
-.acciones-accion-scout-buscar::before {
+.accion-scout-buscar::before {
   content: "\ea1c";
 }
 
-.acciones-accion-scout-perfil::before {
+.accion-scout-perfil::before {
   content: "\ea1d";
 }
 
-.acciones-accion-trabajo::before {
+.accion-trabajo::before {
   content: "\ea1e";
 }
 
-.acciones-accion-trabajo-add::before {
+.accion-trabajo-add::before {
   content: "\ea1f";
 }
 
-.acciones-accion-trabajo-del::before {
+.accion-trabajo-del::before {
   content: "\ea20";
 }
 
-.acciones-accion-trabajo-list::before {
+.accion-trabajo-list::before {
   content: "\ea21";
 }
 
-.area-area-ams::before {
+.area-ams::before {
   content: "\ea22";
 }
 
-.area-area-ayf::before {
+.area-ayf::before {
   content: "\ea23";
 }
 
-.area-area-budista::before {
+.area-budista::before {
   content: "\ea24";
 }
 
-.area-area-catolico::before {
+.area-catolico::before {
   content: "\ea25";
 }
 
-.area-area-comunicaciones::before {
+.area-comunicaciones::before {
   content: "\ea26";
 }
 
-.area-area-desarrollo::before {
+.area-desarrollo::before {
   content: "\ea27";
 }
 
-.area-area-eys::before {
+.area-eys::before {
   content: "\ea28";
 }
 
-.area-area-infraestructura::before {
+.area-infraestructura::before {
   content: "\ea29";
 }
 
-.area-area-juventud::before {
+.area-juventud::before {
   content: "\ea2a";
 }
 
-.area-area-musulmanes::before {
+.area-musulmanes::before {
   content: "\ea2b";
 }
 
-.area-area-programa::before {
+.area-programa::before {
   content: "\ea2c";
 }
 
-.camping-camping-banderin::before {
+.camping-banderin::before {
   content: "\ea2d";
 }
 
-.camping-camping-botiquin::before {
+.camping-botiquin::before {
   content: "\ea2e";
 }
 
-.camping-camping-brujula::before {
+.camping-brujula::before {
   content: "\ea2f";
 }
 
-.camping-camping-cantimplora::before {
+.camping-cantimplora::before {
   content: "\ea30";
 }
 
-.camping-camping-carpa::before {
+.camping-carpa::before {
   content: "\ea31";
 }
 
-.camping-camping-chuchillo::before {
+.camping-chuchillo::before {
   content: "\ea32";
 }
 
-.camping-camping-fuego::before {
+.camping-fuego::before {
   content: "\ea33";
 }
 
-.camping-camping-mochila::before {
+.camping-mochila::before {
   content: "\ea34";
 }
 
-.camping-camping-montania::before {
+.camping-montania::before {
   content: "\ea35";
 }
 
-.camping-camping-pinos::before {
+.camping-pinos::before {
   content: "\ea36";
 }
 
-.camping-camping-prismatico::before {
+.camping-prismatico::before {
   content: "\ea37";
 }
 
-.camping-camping-silbato::before {
+.camping-silbato::before {
   content: "\ea38";
 }
 
-.camping-camping-trompeta::before {
+.camping-trompeta::before {
   content: "\ea39";
 }
 
-.ltv-lobo::before {
+.lobo::before {
   content: "\ea3a";
 }
 
-.ltv-ltv-bagheera::before {
+.ltv-bagheera::before {
   content: "\ea3b";
 }
 
-.ltv-ltv-baloo::before {
+.ltv-baloo::before {
   content: "\ea3c";
 }
 
-.ltv-ltv-kaa::before {
+.ltv-kaa::before {
   content: "\ea3d";
 }
 
-.ltv-ltv-mowgli::before {
+.ltv-mowgli::before {
   content: "\ea3e";
 }
 
-.ltv-ltv-raksha::before {
+.ltv-raksha::before {
   content: "\ea3f";
 }
 
-.saac-funciones-funcion-dd::before {
+.funcion-dd::before {
   content: "\ea40";
 }
 
-.saac-funciones-funcion-dirigente::before {
+.funcion-dirigente::before {
   content: "\ea41";
 }
 
-.saac-funciones-funcion-dz::before {
+.funcion-dz::before {
   content: "\ea42";
 }
 
-.saac-funciones-funcion-jg::before {
+.funcion-jg::before {
   content: "\ea43";
 }
 
-.saac-saac-insignia-caminantes::before {
+.saac-insignia-caminantes::before {
   content: "\ea44";
 }
 
-.saac-saac-insignia-lyl::before {
+.saac-insignia-lyl::before {
   content: "\ea45";
 }
 
-.saac-saac-insignia-rover::before {
+.saac-insignia-rover::before {
   content: "\ea46";
 }
 
-.saac-saac-insignia-scout::before {
+.saac-insignia-scout::before {
   content: "\ea47";
 }
 
-.saac-saac-isologo::before {
+.saac-isologo::before {
   content: "\ea48";
 }
 
-.saac-saac-lis::before {
+.saac-lis::before {
   content: "\ea49";
 }
 
-.saac-saac-lis-nacional::before {
+.saac-lis-nacional::before {
   content: "\ea4a";
 }
 
-.saac-saac-oms::before {
+.saac-oms::before {
   content: "\ea4b";
 }
 
-.saac-saac-zona9::before {
+.saac-zona9::before {
   content: "\ea4c";
 }
 
-.varios-camping-llano::before {
+.camping-llano::before {
   content: "\ea4d";
 }
 
-.varios-canoa::before {
+.canoa::before {
   content: "\ea4e";
 }
 
-.varios-cayado::before {
+.cayado::before {
   content: "\ea4f";
 }
 
-.varios-objetos-panuelo::before {
+.objetos-panuelo::before {
   content: "\ea50";
 }
 
-.varios-scout-bp::before {
+.scout-bp::before {
   content: "\ea51";
 }
 
-.varios-scout-caminando::before {
+.scout-caminando::before {
   content: "\ea52";
 }
 
-.varios-scout-saludo::before {
+.scout-saludo::before {
   content: "\ea53";
 }
 
-.varios-scout-saludo-mano::before {
+.scout-saludo-mano::before {
   content: "\ea54";
 }
 
